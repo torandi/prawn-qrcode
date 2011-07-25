@@ -8,7 +8,7 @@ Echoe.new('prawn-qrcode', '0.1.1') do |p|
 	p.url 					= "http://github.com/torandi/prawn-qrcode"
 	p.author					= "Andreas Tarandi"
 	p.email					= "torandi@gmail.com"
-	p.ignore_pattern 		= ["tmp/*", "script/*"]
+	p.ignore_pattern 		= ["tmp/*", "script/*", "Manifest"]
 	p.dependencies 		= ["prawn", "rqrcode"]
 	p.development_dependencies = []
 end
