@@ -1,6 +1,3 @@
-require 'prawn'
-require 'rqrcode'
-
 module Prawn
   class Document
     

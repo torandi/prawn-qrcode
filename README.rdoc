@@ -1,16 +1,16 @@
-A plugin that adds a qrcode-function to Prawn::Document
+= A plugin that adds a qrcode-function to Prawn::Document
 
 
-======= Dependencies ========
+== Dependencies
 * Prawn
 * RQRCode
 
-======= Usage =======
+== Usage
 In your pdf, do:
 pdf.qrcode(@qrcode) 
 and your qrcode will be drawn in the pdf.
 
-====== Documentation =======
+== Documentation
 Prawn::Document::qrcode(qrcode,xpos=0,ypos=0,module_size=4,module_factor=1.1)
 
 qrcode:
