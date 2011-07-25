@@ -6,18 +6,17 @@
 * RQRCode
 
 == Usage
-In your pdf, do:
+On your pdf, do:
 pdf.qrcode(@qrcode) 
 and your qrcode will be drawn in the pdf.
 
 == Documentation
-Prawn::Document::qrcode(qrcode,xpos=0,ypos=0,module_size=4,module_factor=1.1)
+Prawn::Document::qrcode(qrcode,module_size=4,module_factor=1.1)
+
+Renders a qrcode. 
 
 qrcode:
 	An object of the module RQRCode
-
-xpos, ypos:
-	Relative movements. The xpos is relative from a centered position. Please note that increasing the ypos moves the qrcode upwards (this is because of prawn)
 
 module_size:
 	The size of the black and white blocks in the qrcode

@@ -1,14 +1,13 @@
 module Prawn
   class Document
     
-    def qrcode(qr,xpos=0,ypos=0, module_size=4,module_factor=1.1)
+    def qrcode(qr, module_size=4,module_factor=1.1)
       length=qr.modules.size
       width=module_size * length
-      ypos=width+ypos
-      xpos=xpos+((bounds.width-width)/2+bounds.absolute_left)
+      ypos=width#width+ypos
+      xpos=0#xpos+((bounds.width-width)/2+bounds.absolute_left)
 
       self.bounding_box([xpos,ypos],:width=>width,:height=>width) do 
-
         self.fill_color("000000")
         self.stroke_color("000000")
         

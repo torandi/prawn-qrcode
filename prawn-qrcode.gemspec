@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{Renders a RQRCode in a prawn pdf}
   s.email = %q{torandi@gmail.com}
   s.extra_rdoc_files = [%q{README.rdoc}, %q{lib/prawn-qrcode.rb}]
-  s.files = [%q{Manifest}, %q{README.rdoc}, %q{Rakefile}, %q{lib/prawn-qrcode.rb}, %q{prawn-qrcode.gemspec}]
+  s.files = [%q{README.rdoc}, %q{Rakefile}, %q{lib/prawn-qrcode.rb}, %q{prawn-qrcode.gemspec}, %q{Manifest}]
   s.homepage = %q{http://github.com/torandi/prawn-qrcode}
   s.rdoc_options = [%q{--line-numbers}, %q{--inline-source}, %q{--title}, %q{Prawn-qrcode}, %q{--main}, %q{README.rdoc}]
   s.require_paths = [%q{lib}]

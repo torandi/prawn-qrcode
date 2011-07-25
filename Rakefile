@@ -3,7 +3,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('prawn-qrcode', '0.1.0') do |p|
+Echoe.new('prawn-qrcode', '0.1.1') do |p|
 	p.description 			= "Renders a RQRCode in a prawn pdf"
 	p.url 					= "http://github.com/torandi/prawn-qrcode"
 	p.author					= "Andreas Tarandi"
